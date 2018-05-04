@@ -1,0 +1,97 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Codigo de cor do fundo padrão do Site */
+body {
+    margin: 0 auto;
+    background-color: rgb(69, 69, 69);
+}
+
+/* Cabeçario absoluto */
+header {
+    position: absolute;
+    top: 0;
+    left: 20%;
+    margin: 0 auto;
+    padding: 10px 0;
+    width: 80%;
+    height: 15%;
+    background-color: rgba(0,0,0,0.4);
+    color: orangered;
+    text-align: center;
+}
+/* Menu Fixo */
+nav {
+    margin: 0 auto;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 20%;
+    height: 100%;
+    text-align: center;
+}
+    nav figure {
+        margin: auto;
+        width: 100%;
+        text-align: center;
+        height: 20%;
+    }
+        nav figure img {
+            margin: 5% auto;
+            width: 65%;
+        }
+    nav ul {
+        margin: 0 auto;
+        list-style-type: none;
+        font-size: 32px;
+        color: rgb(255, 106, 0);
+        text-align: center;
+    }
+        nav ul li {
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            padding: 10px;
+        }
+            nav ul li:hover {
+                border: 1px solid rgb(255, 106, 0);
+            } 
+      
+
+/* Área de conteudo da pagina */
+section {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    width: 80%;
+    
+}
+    section article {
+        margin: auto;
+        padding: 15pt;
+        width: 70%;
+        border: 5px solid rgba(255,255,255,0.2);
+        background-color: rgba(255,255,255,0.1);
+        text-align: center;
+    }
+    section article h1{
+        text-align: center;
+        color: orange;
+    }
+       
+
+/* Rodapé absoluto com as informações */
+footer {
+    position: absolute;
+    bottom:-5%;
+    left: 20%;
+    height: 5%;
+    width: 80%;
+    background-color: rgba(0,0,0,0.4);
+}
+    footer p{
+        margin: 5px auto;
+        padding: 0px 5px 0px 5px ;
+        float: left;
+        text-align: center;
+        color: orange;
+    }

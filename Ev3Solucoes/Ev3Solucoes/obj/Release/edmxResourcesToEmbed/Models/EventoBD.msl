@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BancoDeDadosEv3ModelStoreContainer" CdmEntityContainer="BancoDeDadosEv3Entities">
+    <EntitySetMapping Name="Evento">
+      <EntityTypeMapping TypeName="BancoDeDadosEv3Model.Evento">
+        <MappingFragment StoreEntitySet="Evento">
+          <ScalarProperty Name="idEvento" ColumnName="idEvento" />
+          <ScalarProperty Name="nomeEvento" ColumnName="nomeEvento" />
+          <ScalarProperty Name="dataEvento" ColumnName="dataEvento" />
+          <ScalarProperty Name="localEvento" ColumnName="localEvento" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
